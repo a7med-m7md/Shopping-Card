@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../css/Header/header.css'
+import { words } from '../../store/words';
 
 function Header() {
     return (
         <header>
-            Shopping Card
+            {words.headerTitle}
         </header>
     )
 }
